@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/maggie-harrington/js-prework-pingpong#readme",
   "devDependencies": {
+    "browserify": "^14.1.0",
     "gulp": "^3.9.1"
   }
 }
