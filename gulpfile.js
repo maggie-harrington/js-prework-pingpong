@@ -10,8 +10,15 @@ var concat = require('gulp-concat');
 //   console.log('hello gulp');
 // });
 
+// original version of 'concatInterface' task below
+// gulp.task('concatInterface', function() {
+//     return gulp.src(['./js/pingpong-interface.js', './js/signup-interface.js'])
+//     .pipe(concat('allConcat.js'))
+//     .pipe(gulp.dest('./tmp'));
+// });
+
 gulp.task('concatInterface', function() {
-    return gulp.src(['./js/pingpong-interface.js', '.js/signup-interface.js'])
+    return gulp.src(['./js/*-interface.js'])
     .pipe(concat('allConcat.js'))
     .pipe(gulp.dest('./tmp'));
 });
