@@ -7,3 +7,5 @@ Browserify:  npm install browserify --save-dev
 vinyl-source-stream: npm install vinyl-source-stream --save-dev
 
 gulp-concat: npm install gulp-concat --save-dev
+
+gulp-uglify: npm install gulp-uglify --save-dev
