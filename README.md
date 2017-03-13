@@ -11,3 +11,5 @@ gulp-concat: npm install gulp-concat --save-dev
 gulp-uglify: npm install gulp-uglify --save-dev
 
 gulp-util: npm install gulp-util --save-dev
+
+del: npm install del --save-dev
