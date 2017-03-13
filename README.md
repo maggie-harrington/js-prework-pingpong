@@ -13,3 +13,7 @@ gulp-uglify: npm install gulp-uglify --save-dev
 gulp-util: npm install gulp-util --save-dev
 
 del: npm install del --save-dev
+
+jSHint (linter): npm install jshint --save-dev
+
+gulp-jshint (allows us to write a gulp task to automatically check our code using the linter): npm install gulp-jshint --save-dev
